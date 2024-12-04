@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+    padding: 40px;
+  background: #ffffffb6;
+   padding: 40px 250px 40px 250px;
+}
+
+.list-Buku-populer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+    @media screen and (max-width: 768px) {
+        body {
+            font-family: sans-serif;
+            background-color: #ffffffb6;
+            padding: 40px 0px 40px 0px;
+        }
+    }
+    
+
+.buku{
+  background-color: #80b7ff;
+  padding: 10px;
+  border-radius: 10px;
+  border-radius: 8px;
+
+}
+
+.buku-rekomendasi{
+    display: flex;
+    background-color: #1298ff;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 8px;
+    gap: 20px;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: -5;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    color: #131313;
+    border-radius: 15px;
+    background-color: #a296ff;
+}
+
+.logout {
+    text-decoration: none;
+    color: #000;
+    background-color: #7dfffd;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.list-Buku-rekomendasi {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
